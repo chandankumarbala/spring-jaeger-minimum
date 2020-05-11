@@ -20,5 +20,5 @@
   	- `@Autowired`
 	- `private io.opentracing.Tracer tracer;`
   
-    tracer.activeSpan().setBaggageItem("x-baggage-correlation-id", UUID.randomUUID().toString());
-		tracer.activeSpan().setTag("x-tag-correlation-id", UUID.randomUUID().toString());
+    - `tracer.activeSpan().setBaggageItem("x-baggage-correlation-id", UUID.randomUUID().toString());`
+    - `tracer.activeSpan().setTag("x-tag-correlation-id", UUID.randomUUID().toString());`
